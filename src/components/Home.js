@@ -18,6 +18,11 @@ import d from '../assets/d.png';
 import e from '../assets/e.png';
 import g from '../assets/g.png';
 import h from '../assets/h.png';
+import img1 from '../assets/img1.jpeg';
+import img2 from '../assets/img2.jpeg';
+import img3 from '../assets/img3.jpeg';
+import img4 from '../assets/img4.jpeg';
+import img5 from '../assets/img5.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ReactComponent as Telegram } from "../assets/telegram.svg";
@@ -25,7 +30,9 @@ import { ReactComponent as Dextools } from "../assets/dextools.svg";
 import { ReactComponent as Twitter } from "../assets/twitter.svg";
 import CountdownTimer from './CountdownTimer';
 import emailjs from '@emailjs/browser';
-
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+// import "react-image-gallery/styles/scss/image-gallery.scss";
 
 
 export default function Home() {
@@ -554,6 +561,33 @@ export default function Home() {
 
                         </div>
 
+                    </div>
+                </div>
+
+                {/* image gallery */}
+
+                <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
+                    <div className='lg:flex justify-between items-end gap-8 lg:space-y-0 space-y-6'>
+                        <div className='lg:w-1/2 space-y-7'>
+                            <h3 data-aos='fade-up' className='md:text-5xl text-2xl font-slackey font-semibold text-blue-100'>
+                                Donations
+                            </h3>
+
+                            <p>
+                                Our first unofficial donation to a local dog shelter.
+                            </p>
+
+                            <div className=''>
+                                <img src={img3} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                            </div>
+                        </div>
+
+                        <div className='lg:w-1/2 grid grid-cols-2 grid-rows-1 justify-center items-start gap-5'>
+                            <img src={img1} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img2} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img4} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img5} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                        </div>
                     </div>
                 </div>
 
