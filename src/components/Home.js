@@ -30,9 +30,6 @@ import { ReactComponent as Dextools } from "../assets/dextools.svg";
 import { ReactComponent as Twitter } from "../assets/twitter.svg";
 import CountdownTimer from './CountdownTimer';
 import emailjs from '@emailjs/browser';
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
-// import "react-image-gallery/styles/scss/image-gallery.scss";
 
 
 export default function Home() {
@@ -62,6 +59,10 @@ export default function Home() {
         <div className="bg-white-50 text-blue-200 font-poppins overflow-hidden">
 
             {/* top section */}
+
+            <div className='py-3 bg-orange-200 text-center break-words text-white-100 sm:text-md text-sm'>
+                CA: 0xa288585071e03B0d12454132B651c43E3b909bB5
+            </div>
 
             <div className="lg:px-20 px-5">
                 <div className='container mx-auto'>
@@ -106,7 +107,7 @@ export default function Home() {
                                     </button>
                                 </a>
 
-                                <a href="/" className='icon'>
+                                <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xa6d4713f47e571636684fa3f542265c45beb4e11?t=1734534808736" className='icon'>
                                     <Dextools className='absolute ml-24 -mt-5 w-10' />
                                     <button className="text-white-100 bg-orange-200 py-4 md:px-6 px-3 rounded-lg font-semibold w-32">
                                         Dextools
@@ -537,8 +538,8 @@ export default function Home() {
                                         <h5 className='font-slackey text-blue-100 text-xl'>
                                             4- Add Token
                                         </h5>
-                                        <p className='lg:leading-loose'>
-                                            Paste Street Pups contract (available at launch).
+                                        <p className='lg:leading-loose break-words'>
+                                            Paste Street Pups contract 0xa288585071e03B0d12454132B651c43E3b909bB5.
                                         </p>
                                     </div>
                                 </div>

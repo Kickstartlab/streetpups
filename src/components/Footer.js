@@ -41,7 +41,7 @@ export default function Footer() {
               </button>
             </a>
 
-            <a href="/" className='icon'>
+            <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xa6d4713f47e571636684fa3f542265c45beb4e11?t=1734534808736" className='icon'>
               <Dextools className='absolute ml-20 -mt-8 w-10' />
               <button className="text-white-100 bg-orange-200 py-3 md:px-6 px-3 rounded-lg font-semibold w-28">
                 Dextools
