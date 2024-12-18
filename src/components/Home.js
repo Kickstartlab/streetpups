@@ -539,7 +539,7 @@ export default function Home() {
                                             4- Add Token
                                         </h5>
                                         <p className='lg:leading-loose break-words'>
-                                            Paste Street Pups contract 0xa288585071e03B0d12454132B651c43E3b909bB5.
+                                            Paste Street Pups contract <span className='break-words'>0xa288585071e03B0d12454132B651c43E3b909bB5.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -579,15 +579,15 @@ export default function Home() {
                             </p>
 
                             <div className=''>
-                                <img src={img3} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                                <img src={img3} alt='gallery' className='border-4 border-orange-100 rounded-md'></img>
                             </div>
                         </div>
 
                         <div className='lg:w-1/2 grid grid-cols-2 grid-rows-1 justify-center items-start gap-5'>
-                            <img src={img1} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
-                            <img src={img2} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
-                            <img src={img4} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
-                            <img src={img5} alt='picture' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img1} alt='gallery' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img2} alt='gallery' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img4} alt='gallery' className='border-4 border-orange-100 rounded-md'></img>
+                            <img src={img5} alt='gallery' className='border-4 border-orange-100 rounded-md'></img>
                         </div>
                     </div>
                 </div>
